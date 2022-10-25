@@ -15,7 +15,7 @@ const brandSchema = mongoose.Schema({
     email: {
         type: String,
         validate: [validator.isEmail, "Please provide a valid email "],
-        lowercase: ture
+        lowercase: true
     },
     website: {
         type: String,
